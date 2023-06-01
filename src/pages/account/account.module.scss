@@ -1,0 +1,23 @@
+.formGroup {
+  position: relative;
+  width: 100%;
+  margin-bottom: 26px;
+  user-select: none;
+  input {
+    background: transparent;
+    width: 100%;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #a79b9b;
+    padding: 11px 16px;
+    transition: 0.2s ease;
+    font-size: 14px;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
