@@ -5,7 +5,9 @@ import Link from "next/link"
 
 const inter = Inter({ subsets: ["latin"] })
 
+
 export default function Home() {
+  console.log("123123123")
   return (
     <Link href="/account/login">
       <p>My second page</p>
