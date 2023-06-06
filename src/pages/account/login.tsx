@@ -14,7 +14,6 @@ export default function login() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
-  console.log('123123')
   const user = {
     email: email,
     password: password,
